@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="./JS/script.js"></script>
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <title>Box Shadow Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Box-Shadow Generator</h1>
+            <div class="box"></div>
+            <h3 id="text"></h3>
+        </div>
+        <section class="sidebar">
+            <label for="x-position">X</label>
+            <input type="number" name="x-position" id="x-position" value="4" />
+
+            <label for="y-position">Y</label>
+            <input type="number" name="y-position" id="y-position" value="4" />
+
+            <label for="blur">Blur</label>
+            <input type="number" name="blur" id="blur" value="4" />
+
+            <label for="spread">Spread</label>
+            <input type="number" name="spread" id="spread" value="10" />
+
+            <label for="shadow-color">Shadow</label>
+            <input
+                type="color"
+                name="shadow-color"
+                id="shadow-color"
+                value="#6b4bdd"
+            />
+
+            <div class="divider"></div>
+
+            <label for="box-color">Box</label>
+            <input
+                type="color"
+                name="box-color"
+                id="box-color"
+                value="#5800ca"
+            />
+
+            <label for="background-color">Background</label>
+            <input
+                type="color"
+                name="background-color"
+                id="background-color"
+                value="#8b9aec"
+            />
+        </section>
+    </body>
+</html>
