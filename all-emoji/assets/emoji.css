@@ -62,6 +62,7 @@ ul#them_all li{
 }
 #status span.emoji input{
   font-size: 160px;
+  width: 1.25em;
   padding: 0;
 }
 
